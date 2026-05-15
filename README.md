@@ -104,36 +104,7 @@ Similarly:
 
 ---
 
-```text
-                ┌──────────────────────────────────────────────┐
-                │                Your Computer                 │
-                │                                              │
-                │  ┌──────────────────────────────────────┐    │
-                │  │ Host with MCP Client                 │    │
-                │  │ (Claude, IDEs, Tools)                │    │
-                │  └──────────────────────────────────────┘    │
-                │            │          │          │           │
-                │            │          │          │           │
-                │     MCP Protocol  MCP Protocol  MCP Protocol │
-                │            │          │          │           │
-                │  ┌─────────▼────────┐ ┌─────────▼────────┐   │
-                │  │   MCP Server A   │ │   MCP Server B   │   │
-                │  └─────────┬────────┘ └─────────┬────────┘   │
-                │            │                    │             │
-                │   Local Data Source A   Local Data Source B   │
-                │            │                    │             │
-                │  ┌─────────▼────────┐                         │
-                │  │   MCP Server C   │                         │
-                │  └─────────┬────────┘                         │
-                │            │ Web APIs                          │
-                └────────────│───────────────────────────────────┘
-                             │
-                             ▼
-                     ┌────────────────────┐
-                     │      Internet      │
-                     │  Remote Service C  │
-                     └────────────────────┘
-```
+![Architecture Diagram](MCP.png)
 
 ## Summary
 MCP provides a universal standard for connecting AI systems with tools and external services, making AI applications more scalable, maintainable, and future-proof.
