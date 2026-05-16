@@ -160,6 +160,7 @@ Supported hosts:
 - VS Code
 
 ---
+![Architecture Diagram]([MCP.png](https://smithery.ai/))
 
 ## Step 3: Copy JSON Configuration
 Smithery AI generates configuration JSON automatically.
