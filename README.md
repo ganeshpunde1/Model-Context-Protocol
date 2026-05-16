@@ -111,11 +111,6 @@ MCP provides a universal standard for connecting AI systems with tools and exter
 
 # Model Context Protocol (MCP) Integration Summary
 
-## Overview
-This video explains how to integrate and use the **Model Context Protocol (MCP)** with tools like **Claude Desktop** and **Cursor IDE** using the **Smithery AI** platform.
-
----
-
 # What is MCP?
 
 Model Context Protocol (MCP) is a standard protocol that allows AI clients/hosts to communicate with external tools and services through MCP servers.
