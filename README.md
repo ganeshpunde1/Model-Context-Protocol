@@ -109,3 +109,72 @@ Similarly:
 ## Summary
 MCP provides a universal standard for connecting AI systems with tools and external services, making AI applications more scalable, maintainable, and future-proof.
 
+# Model Context Protocol (MCP) Integration Summary
+
+## Overview
+This video explains how to integrate and use the **Model Context Protocol (MCP)** with tools like **Claude Desktop** and **Cursor IDE** using the **Smithery AI** platform.
+
+---
+
+# What is MCP?
+
+Model Context Protocol (MCP) is a standard protocol that allows AI clients/hosts to communicate with external tools and services through MCP servers.
+
+Examples of MCP-enabled hosts:
+- Claude Desktop
+- Cursor IDE
+- VS Code
+
+Examples of MCP servers:
+- GitHub
+- Slack
+- Supabase
+- DuckDuckGo Search
+- Playwright
+- Perplexity Search
+- Redis
+
+---
+
+# Smithery AI Platform
+
+Smithery AI acts as an aggregator marketplace for multiple MCP servers from different providers.
+
+Features:
+- Browse available MCP servers
+- View tools/APIs exposed by servers
+- Get JSON configurations
+- Integrate MCP servers into AI hosts
+
+---
+
+# MCP Integration Workflow
+
+## Step 1: Select MCP Server
+Example:
+- DuckDuckGo Search
+- Exa Search
+- GitHub MCP
+
+---
+
+## Step 2: Choose Client/Host
+Supported hosts:
+- Claude Desktop
+- Cursor IDE
+- VS Code
+
+---
+
+## Step 3: Copy JSON Configuration
+Smithery AI generates configuration JSON automatically.
+
+Example:
+```json
+{
+  "exa": {
+    "command": "cmd",
+    "args": ["..."]
+  }
+}
+
